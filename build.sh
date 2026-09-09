@@ -3,7 +3,7 @@
 set -e
 
 echo "🏈 Building HTML..."
-pandoc players.md \
+pandoc README.md \
   --standalone \
   --css=style.css \
   --metadata title="2026 Fantasy Football Portfolio" \
