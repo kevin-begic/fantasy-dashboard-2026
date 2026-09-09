@@ -1,5 +1,3 @@
-# Players
-
 ## QB
 
 | ADP   | Player          | Leagues | Team               |
@@ -13,7 +11,7 @@
 
 QB watch priority: Josh Allen → Jaxson Dart → Patrick Mahomes → Kyler Murray → Tyler Shough → Dak Prescott.
 
-Mahomes is particularly interesting to monitor because current preseason rankings note his return from an ACL injury, while Tyler Shough is getting some late-round sleeper attention. SSB Nation+1 
+Mahomes is particularly interesting to monitor because current preseason rankings note his return from an ACL injury, while Tyler Shough is getting some late-round sleeper attention. SSB Nation+1
 
 ## RB
 
@@ -37,7 +35,7 @@ Mahomes is particularly interesting to monitor because current preseason ranking
 
 RB watch priority: Bijan → CMC → Jeanty → Stevenson → Harvey/Dobbins → Tuten → Warren → everyone else.
 
-The Broncos are especially interesting because you have three pieces of that backfield/offense on your list: Dobbins, Harvey and Pat Bryant. Current preseason analysis specifically flags Dobbins' injury history and Harvey's efficiency as things to watch. NNew York Post 
+The Broncos are especially interesting because you have three pieces of that backfield/offense on your list: Dobbins, Harvey and Pat Bryant. Current preseason analysis specifically flags Dobbins' injury history and Harvey's efficiency as things to watch. NNew York Post
 
 ## WR
 
@@ -64,7 +62,7 @@ The Broncos are especially interesting because you have three pieces of that bac
 
 WR watch priority: Chase → Nabers → Collins → Olave → DeVonta → Egbuka → Flowers → Waddle → Burden.
 
-You have a really strong concentration of high-end WRs here. Malik Nabers being in 3 leagues makes him your single biggest WR player to monitor. Current 2026 preseason rankings also specifically mention Nabers and Luther Burden among players recovering/working their way back into form, while Jordyn Tyson and Egbuka have some injury concerns. SSB Nation 
+You have a really strong concentration of high-end WRs here. Malik Nabers being in 3 leagues makes him your single biggest WR player to monitor. Current 2026 preseason rankings also specifically mention Nabers and Luther Burden among players recovering/working their way back into form, while Jordyn Tyson and Egbuka have some injury concerns. SSB Nation
 
 ## TE
 
@@ -99,46 +97,53 @@ Juwan Johnson is an interesting late-round one for you: Matthew Berry specifical
 | 8    | San Francisco 49ers  | Christian McCaffrey, De'Zhaun Stribling                | 2             | CMC is the key                            |
 | 8    | Houston Texans       | Nico Collins, David Montgomery                         | 2             | WR + RB                                   |
 
-🎯 Your biggest "watch these teams" list
+## 🎯 Your biggest "watch these teams" list
 
 If I were setting up a Sunday fantasy dashboard specifically for your portfolio, I'd prioritize:
-1. 🗽 Giants — 6 leagues
+
+### 🗽 Giants — 6 leagues
 
 Malik Nabers (3), Jaxson Dart (2), Isaiah Likely (1)
 
 This is unquestionably your #1 team to monitor. Nabers is your most-owned player, and Dart gives you QB exposure tied to the same offense. If the Giants offense takes a major step forward—or struggles—you'll feel it across a lot of leagues.
-2. 🐴 Broncos — 5 leagues
+
+### 🐴 Broncos — 5 leagues
 
 Jaylen Waddle (2), RJ Harvey (1), J.K. Dobbins (1), Pat Bryant (1)
 
 This is probably your most interesting depth/portfolio team. You have four different offensive players, including two RBs competing for fantasy relevance.
-3. ⚜️ Saints — 4 leagues
+
+### ⚜️ Saints — 4 leagues
 
 Chris Olave, Jordyn Tyson, Juwan Johnson, Tyler Shough
 
 This is a sneaky one. You essentially have exposure to the entire passing game: QB + two WR/TE targets. If Shough performs well, several of your players could benefit simultaneously.
-4. 🏴‍☠️ Buccaneers — 4 leagues
+
+### 🏴‍☠️ Buccaneers — 4 leagues
 
 Emeka Egbuka, Chris Godwin, Kenneth Gainwell
 
 Your WR exposure is particularly interesting here. Egbuka and Godwin give you two potential receiving contributors, while Gainwell gives you another offensive angle.
-5. 🐆 Jaguars — 3 leagues
+
+### 🐆 Jaguars — 3 leagues
 
 Bhayshul Tuten, Parker Washington, Chris Rodriguez Jr.
 
 This is the team I'd watch for role changes rather than simply production. Three players means any changes to the offensive hierarchy could affect multiple assets.
-6. 🦬 Bills — 3 leagues
+
+### 🦬 Bills — 3 leagues
 
 Josh Allen, Dalton Kincaid
 
 Not as much breadth, but very high quality exposure. If Buffalo's offense is elite, you're positioned to benefit.
-7. ⚡ Chargers — 3 leagues
+
+### ⚡ Chargers — 3 leagues
 
 Keaton Mitchell, Kimani Vidal
 
 This is a classic monitor-the-depth-chart situation. You're not necessarily watching the Chargers because you expect both guys to be fantasy relevant—you want to know which one emerges.
 
-Your portfolio at a glance
+## At A Glance
 
 I'd classify your team exposure like this:
 
@@ -178,4 +183,4 @@ I'd classify your team exposure like this:
 
 One thing that jumps out: your portfolio is heavily concentrated in the Giants, Broncos, Saints and Bucs. That's actually useful for fantasy management because you can watch those four offenses closely rather than trying to follow every NFL team equally.
 
-Also, current 2026 fantasy analysis is emphasizing that ADP can lag behind changing preseason roles and injuries, so for the players in your 70–230 ADP range, depth-chart/news monitoring may be more valuable than the raw ADP number. 
+Also, current 2026 fantasy analysis is emphasizing that ADP can lag behind changing preseason roles and injuries, so for the players in your 70–230 ADP range, depth-chart/news monitoring may be more valuable than the raw ADP number.
