@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>players</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<h1 id="players">Players</h1>
+<h2 id="qb">QB</h2>
+<table>
+<thead>
+<tr>
+<th>ADP</th>
+<th>Player</th>
+<th>Leagues</th>
+<th>Team</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21.6</td>
+<td>Josh Allen</td>
+<td>1</td>
+<td>Buffalo Bills</td>
+</tr>
+<tr>
+<td>77.5</td>
+<td>Dak Prescott</td>
+<td>1</td>
+<td>Dallas Cowboys</td>
+</tr>
+<tr>
+<td>96.9</td>
+<td>Jaxson Dart</td>
+<td>2</td>
+<td>New York Giants</td>
+</tr>
+<tr>
+<td>110.5</td>
+<td>Patrick Mahomes</td>
+<td>1</td>
+<td>Kansas City Chiefs</td>
+</tr>
+<tr>
+<td>151.2</td>
+<td>Kyler Murray</td>
+<td>1</td>
+<td>Minnesota Vikings</td>
+</tr>
+<tr>
+<td>183.1</td>
+<td>Tyler Shough</td>
+<td>1</td>
+<td>New Orleans Saints</td>
+</tr>
+</tbody>
+</table>
+<p>QB watch priority: Josh Allen → Jaxson Dart → Patrick Mahomes → Kyler
+Murray → Tyler Shough → Dak Prescott.</p>
+<p>Mahomes is particularly interesting to monitor because current
+preseason rankings note his return from an ACL injury, while Tyler
+Shough is getting some late-round sleeper attention. SSB Nation+1</p>
+<h2 id="rb">RB</h2>
+<table>
+<thead>
+<tr>
+<th>ADP</th>
+<th>Player</th>
+<th>Leagues</th>
+<th>Team</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.0</td>
+<td>Bijan Robinson</td>
+<td>2</td>
+<td>Atlanta Falcons</td>
+</tr>
+<tr>
+<td>5.0</td>
+<td>Christian McCaffrey</td>
+<td>1</td>
+<td>San Francisco 49ers</td>
+</tr>
+<tr>
+<td>16.0</td>
+<td>Ashton Jeanty</td>
+<td>1</td>
+<td>Las Vegas Raiders</td>
+</tr>
+<tr>
+<td>47.7</td>
+<td>David Montgomery</td>
+<td>1</td>
+<td>Houston Texans</td>
+</tr>
+<tr>
+<td>61.1</td>
+<td>Bhayshul Tuten</td>
+<td>1</td>
+<td>Jacksonville Jaguars</td>
+</tr>
+<tr>
+<td>71.7</td>
+<td>Jaylen Warren</td>
+<td>1</td>
+<td>Pittsburgh Steelers</td>
+</tr>
+<tr>
+<td>78.9</td>
+<td>Rhamondre Stevenson</td>
+<td>2</td>
+<td>New England Patriots</td>
+</tr>
+<tr>
+<td>80.2</td>
+<td>RJ Harvey</td>
+<td>1</td>
+<td>Denver Broncos</td>
+</tr>
+<tr>
+<td>92.7</td>
+<td>J.K. Dobbins</td>
+<td>1</td>
+<td>Denver Broncos</td>
+</tr>
+<tr>
+<td>98.9</td>
+<td>Jonathon Brooks</td>
+<td>1</td>
+<td>Carolina Panthers</td>
+</tr>
+<tr>
+<td>109.1</td>
+<td>Jordan Mason</td>
+<td>1</td>
+<td>Minnesota Vikings</td>
+</tr>
+<tr>
+<td>111.7</td>
+<td>Kenneth Gainwell</td>
+<td>2</td>
+<td>Tampa Bay Buccaneers</td>
+</tr>
+<tr>
+<td>141.5</td>
+<td>Chris Rodriguez Jr.</td>
+<td>1</td>
+<td>Jacksonville Jaguars</td>
+</tr>
+<tr>
+<td>184.6</td>
+<td>Keaton Mitchell</td>
+<td>2</td>
+<td>Los Angeles Chargers</td>
+</tr>
+<tr>
+<td>185.5</td>
+<td>Kimani Vidal</td>
+<td>1</td>
+<td>Los Angeles Chargers</td>
+</tr>
+</tbody>
+</table>
+<p>RB watch priority: Bijan → CMC → Jeanty → Stevenson → Harvey/Dobbins
+→ Tuten → Warren → everyone else.</p>
+<p>The Broncos are especially interesting because you have three pieces
+of that backfield/offense on your list: Dobbins, Harvey and Pat Bryant.
+Current preseason analysis specifically flags Dobbins’ injury history
+and Harvey’s efficiency as things to watch. NNew York Post</p>
+<h2 id="wr">WR</h2>
+<table>
+<thead>
+<tr>
+<th>ADP</th>
+<th>Player</th>
+<th>Leagues</th>
+<th>Team</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.4</td>
+<td>Ja’Marr Chase</td>
+<td>1</td>
+<td>Cincinnati Bengals</td>
+</tr>
+<tr>
+<td>24.1</td>
+<td>Nico Collins</td>
+<td>1</td>
+<td>Houston Texans</td>
+</tr>
+<tr>
+<td>26.1</td>
+<td>Malik Nabers</td>
+<td>3</td>
+<td>New York Giants</td>
+</tr>
+<tr>
+<td>30.6</td>
+<td>Chris Olave</td>
+<td>1</td>
+<td>New Orleans Saints</td>
+</tr>
+<tr>
+<td>33.3</td>
+<td>DeVonta Smith</td>
+<td>1</td>
+<td>Philadelphia Eagles</td>
+</tr>
+<tr>
+<td>38.6</td>
+<td>Emeka Egbuka</td>
+<td>1</td>
+<td>Tampa Bay Buccaneers</td>
+</tr>
+<tr>
+<td>41.2</td>
+<td>Zay Flowers</td>
+<td>2</td>
+<td>Baltimore Ravens</td>
+</tr>
+<tr>
+<td>44.7</td>
+<td>Jaylen Waddle</td>
+<td>2</td>
+<td>Denver Broncos</td>
+</tr>
+<tr>
+<td>56.9</td>
+<td>Luther Burden III</td>
+<td>2</td>
+<td>Chicago Bears</td>
+</tr>
+<tr>
+<td>73.4</td>
+<td>Parker Washington</td>
+<td>1</td>
+<td>Jacksonville Jaguars</td>
+</tr>
+<tr>
+<td>93.1</td>
+<td>Chris Godwin Jr.</td>
+<td>1</td>
+<td>Tampa Bay Buccaneers</td>
+</tr>
+<tr>
+<td>107.3</td>
+<td>Stefon Diggs</td>
+<td>1</td>
+<td>Washington Commanders</td>
+</tr>
+<tr>
+<td>107.5</td>
+<td>Jayden Reed</td>
+<td>1</td>
+<td>Green Bay Packers</td>
+</tr>
+<tr>
+<td>113.9</td>
+<td>Jordyn Tyson</td>
+<td>1</td>
+<td>New Orleans Saints</td>
+</tr>
+<tr>
+<td>114.1</td>
+<td>Josh Downs</td>
+<td>1</td>
+<td>Indianapolis Colts</td>
+</tr>
+<tr>
+<td>139.4</td>
+<td>De’Zhaun Stribling</td>
+<td>1</td>
+<td>San Francisco 49ers</td>
+</tr>
+<tr>
+<td>148.8</td>
+<td>Jalen Coker</td>
+<td>1</td>
+<td>Carolina Panthers</td>
+</tr>
+<tr>
+<td>227.2</td>
+<td>Pat Bryant</td>
+<td>1</td>
+<td>Denver Broncos</td>
+</tr>
+</tbody>
+</table>
+<p>WR watch priority: Chase → Nabers → Collins → Olave → DeVonta →
+Egbuka → Flowers → Waddle → Burden.</p>
+<p>You have a really strong concentration of high-end WRs here. Malik
+Nabers being in 3 leagues makes him your single biggest WR player to
+monitor. Current 2026 preseason rankings also specifically mention
+Nabers and Luther Burden among players recovering/working their way back
+into form, while Jordyn Tyson and Egbuka have some injury concerns. SSB
+Nation</p>
+<h2 id="te">TE</h2>
+<table>
+<thead>
+<tr>
+<th>ADP</th>
+<th>Player</th>
+<th>Leagues</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>88.9</td>
+<td>Dalton Kincaid</td>
+<td>2</td>
+</tr>
+<tr>
+<td>106.9</td>
+<td>Isaiah Likely</td>
+<td>1</td>
+</tr>
+<tr>
+<td>177.8</td>
+<td>Juwan Johnson</td>
+<td>1</td>
+</tr>
+<tr>
+<td>229.7</td>
+<td>Greg Dulcich</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>TE watch priority: Kincaid → Likely → Juwan Johnson → Dulcich.</p>
+<p>Juwan Johnson is an interesting late-round one for you: Matthew Berry
+specifically identified him as a 2026 late-round value because of the
+Saints’ receiving situation and Tyler Shough’s expected role.</p>
+<h2 id="watch-list">Watch List</h2>
+<table>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 15%" />
+<col style="width: 39%" />
+<col style="width: 10%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Team</th>
+<th>Your Players</th>
+<th>Total Leagues</th>
+<th>Why Watch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>New York Giants</td>
+<td>Malik Nabers, Jaxson Dart, Isaiah Likely</td>
+<td>6</td>
+<td>Your biggest team exposure</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Denver Broncos</td>
+<td>Jaylen Waddle, RJ Harvey, J.K. Dobbins, Pat Bryant</td>
+<td>5</td>
+<td>Lots of offensive pieces</td>
+</tr>
+<tr>
+<td>3</td>
+<td>New Orleans Saints</td>
+<td>Chris Olave, Jordyn Tyson, Juwan Johnson, Tyler Shough</td>
+<td>4</td>
+<td>Very concentrated offense</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tampa Bay Buccaneers</td>
+<td>Emeka Egbuka, Chris Godwin, Kenneth Gainwell</td>
+<td>4</td>
+<td>Three offensive players</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Jacksonville Jaguars</td>
+<td>Bhayshul Tuten, Parker Washington, Chris Rodriguez Jr.</td>
+<td>3</td>
+<td>Three players / possible emerging offense</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Buffalo Bills</td>
+<td>Josh Allen, Dalton Kincaid</td>
+<td>3</td>
+<td>Elite QB + TE combination</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Los Angeles Chargers</td>
+<td>Keaton Mitchell, Kimani Vidal</td>
+<td>3</td>
+<td>Two RBs competing for relevance</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Atlanta Falcons</td>
+<td>Bijan Robinson</td>
+<td>2</td>
+<td>One of your most valuable players</td>
+</tr>
+<tr>
+<td>8</td>
+<td>New England Patriots</td>
+<td>Rhamondre Stevenson</td>
+<td>2</td>
+<td>Two leagues</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Minnesota Vikings</td>
+<td>Kyler Murray, Jordan Mason</td>
+<td>2</td>
+<td>QB + RB</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Chicago Bears</td>
+<td>Luther Burden III</td>
+<td>2</td>
+<td>High-upside WR</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Baltimore Ravens</td>
+<td>Zay Flowers</td>
+<td>2</td>
+<td>Two leagues</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Carolina Panthers</td>
+<td>Jonathon Brooks, Jalen Coker</td>
+<td>2</td>
+<td>Two players to monitor</td>
+</tr>
+<tr>
+<td>8</td>
+<td>San Francisco 49ers</td>
+<td>Christian McCaffrey, De’Zhaun Stribling</td>
+<td>2</td>
+<td>CMC is the key</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Houston Texans</td>
+<td>Nico Collins, David Montgomery</td>
+<td>2</td>
+<td>WR + RB</td>
+</tr>
+</tbody>
+</table>
+<p>🎯 Your biggest “watch these teams” list</p>
+<p>If I were setting up a Sunday fantasy dashboard specifically for your
+portfolio, I’d prioritize: 1. 🗽 Giants — 6 leagues</p>
+<p>Malik Nabers (3), Jaxson Dart (2), Isaiah Likely (1)</p>
+<p>This is unquestionably your #1 team to monitor. Nabers is your
+most-owned player, and Dart gives you QB exposure tied to the same
+offense. If the Giants offense takes a major step forward—or
+struggles—you’ll feel it across a lot of leagues. 2. 🐴 Broncos — 5
+leagues</p>
+<p>Jaylen Waddle (2), RJ Harvey (1), J.K. Dobbins (1), Pat Bryant
+(1)</p>
+<p>This is probably your most interesting depth/portfolio team. You have
+four different offensive players, including two RBs competing for
+fantasy relevance. 3. ⚜️ Saints — 4 leagues</p>
+<p>Chris Olave, Jordyn Tyson, Juwan Johnson, Tyler Shough</p>
+<p>This is a sneaky one. You essentially have exposure to the entire
+passing game: QB + two WR/TE targets. If Shough performs well, several
+of your players could benefit simultaneously. 4. 🏴‍☠️ Buccaneers — 4
+leagues</p>
+<p>Emeka Egbuka, Chris Godwin, Kenneth Gainwell</p>
+<p>Your WR exposure is particularly interesting here. Egbuka and Godwin
+give you two potential receiving contributors, while Gainwell gives you
+another offensive angle. 5. 🐆 Jaguars — 3 leagues</p>
+<p>Bhayshul Tuten, Parker Washington, Chris Rodriguez Jr.</p>
+<p>This is the team I’d watch for role changes rather than simply
+production. Three players means any changes to the offensive hierarchy
+could affect multiple assets. 6. 🦬 Bills — 3 leagues</p>
+<p>Josh Allen, Dalton Kincaid</p>
+<p>Not as much breadth, but very high quality exposure. If Buffalo’s
+offense is elite, you’re positioned to benefit. 7. ⚡ Chargers — 3
+leagues</p>
+<p>Keaton Mitchell, Kimani Vidal</p>
+<p>This is a classic monitor-the-depth-chart situation. You’re not
+necessarily watching the Chargers because you expect both guys to be
+fantasy relevant—you want to know which one emerges.</p>
+<p>Your portfolio at a glance</p>
+<p>I’d classify your team exposure like this:</p>
+<p>🔴 Critical — monitor every week</p>
+<pre><code>Giants — 6
+Broncos — 5
+Saints — 4
+Buccaneers — 4</code></pre>
+<p>🟠 Important — monitor regularly</p>
+<pre><code>Jaguars — 3
+Bills — 3
+Chargers — 3
+Ravens — 2
+Vikings — 2
+Bears — 2
+Patriots — 2
+Panthers — 2
+49ers — 2
+Texans — 2
+Falcons — 2</code></pre>
+<p>🟢 Player-specific — don’t need to follow entire offense</p>
+<pre><code>Bengals — Chase
+Eagles — DeVonta Smith
+Steelers — Warren
+Cowboys — Prescott
+Chiefs — Mahomes
+Raiders — Jeanty
+Colts — Downs
+Commanders — Diggs
+Packers — Reed
+Dolphins — Dulcich</code></pre>
+<p>One thing that jumps out: your portfolio is heavily concentrated in
+the Giants, Broncos, Saints and Bucs. That’s actually useful for fantasy
+management because you can watch those four offenses closely rather than
+trying to follow every NFL team equally.</p>
+<p>Also, current 2026 fantasy analysis is emphasizing that ADP can lag
+behind changing preseason roles and injuries, so for the players in your
+70–230 ADP range, depth-chart/news monitoring may be more valuable than
+the raw ADP number.</p>
+</body>
+</html>
